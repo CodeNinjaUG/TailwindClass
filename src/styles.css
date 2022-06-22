@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+.cardboards{
+    @apply bg-white rounded overflow-hidden shadow-xl relative;
+}
+.badges{
+    @apply absolute bg-yellow-600 p-2 rounded-full top-0 mt-3 ml-3 text-white text-xs font-Nunito font-extrabold;
+}
+.btn{
+    @apply rounded-full bg-blue-500 border-blue-500 py-2 px-3 text-white cursor-pointer tracking-wider;
+}
+
+}
